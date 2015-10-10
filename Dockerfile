@@ -2,7 +2,7 @@ FROM crossdev/archlinux
 MAINTAINER Roman Saveljev <roman.saveljev@haltian.com>
 
 RUN \
-    pacman -Syu --noconfirm sudo
+    pacman -Syu --noconfirm sudo git
 
 RUN \
     useradd -m -s /bin/bash builder && \
